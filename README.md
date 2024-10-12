@@ -1,6 +1,8 @@
-# LDF-BNN
+# LDF-BNN : A real-time and high-accuracy BNN accelerator based on the improved BNext
 
-1. Installation environment
+![image](./figures/BNext_LDFBNN.png)
+
+## Installation environment
 ```
 python==3.10.9
 pytorch==1.13.1 
@@ -12,7 +14,7 @@ cudatoolkit==1.16.1
 nvidia-dali-cuda110==1.31.0
 ```
 
-2. Run
+## Run
 ```
 cd ./LDF-BNN/src
 sh ./script/LDFBNN-Cifar10/run_distributed_on_disk_a6k5_AdamW_Curicullum_Tiny_assistant_teacher_num_1_aa.sh
