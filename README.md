@@ -19,3 +19,6 @@ nvidia-dali-cuda110==1.31.0
 cd ./LDF-BNN/src
 sh ./script/LDFBNN-Cifar10/run_distributed_on_disk_a6k5_AdamW_Curicullum_Tiny_assistant_teacher_num_1_aa.sh
 ```
+
+## Thanks
+Part of the code references [BNext](https://github.com/hpi-xnor/BNext). Please ref to their reposity for more details.
